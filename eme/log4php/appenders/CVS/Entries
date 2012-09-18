@@ -1,0 +1,13 @@
+/LoggerAppenderAdodb.php/1.1/Fri Nov 27 06:44:12 2009//
+/LoggerAppenderConsole.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerAppenderDailyFile.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerAppenderEcho.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerAppenderFile.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerAppenderMail.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerAppenderMailEvent.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerAppenderNull.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerAppenderPDO.php/1.1/Thu May 19 13:40:54 2011//
+/LoggerAppenderPhp.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerAppenderRollingFile.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerAppenderSocket.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerAppenderSyslog.php/1.3/Thu May 19 13:40:54 2011//

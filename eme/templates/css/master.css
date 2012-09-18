@@ -1,0 +1,214 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, em, font, ins, small, strike, strong, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+body {
+	background: #fff;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {/* tables still need 'cellspacing="0"' in the markup */
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a img {
+	border: 0;
+}
+
+/* =Structure
+----------------------------------------------- */
+body {
+	padding: 0 2em;
+}
+#wrapper-container {
+	width: 940px;
+	margin: 10px auto;
+	padding: 0px;
+}
+
+#wrapper-container #wrapper {
+	margin: 0px auto;
+	width: 960px;
+	float: left;
+}
+
+#wrapper #left-sidebar {
+	width: 255px;
+	float: left;
+	margin-top: 10px;
+}
+
+#wrapper #content {
+	width: 700px;
+	float: left;
+	margin-top: 10px;	
+}
+
+#wrapper #header {
+	width: 955px;
+	float: left;
+}
+
+#wrapper #footer {
+	width: 955px;
+	float: left;
+	text-align: center;
+	font-size: x-small;
+	margin-top: 10px;
+}
+
+/* Links */
+a {
+	color: #1982d1;
+	text-decoration: none;
+}
+a:focus,
+a:active,
+a:hover {
+	text-decoration: underline;
+}
+
+/* =Global
+----------------------------------------------- */
+
+body, input, textarea {
+	color: #373737;
+	font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 1.625;
+}
+body {
+	background: #efefef;
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+	clear: both;
+}
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.625em;
+}
+
+/* Text elements */
+p {
+	margin-bottom: 1.625em;
+}
+ul, ol {
+	margin: 0 0 1.625em 2.5em;
+}
+ul {
+	list-style: square;
+}
+ol {
+	list-style-type: decimal;
+}
+ol ol {
+	list-style: upper-alpha;
+}
+ol ol ol {
+	list-style: lower-roman;
+}
+ol ol ol ol {
+	list-style: lower-alpha;
+}
+ul ul, ol ol, ul ol, ol ul {
+	margin-bottom: 0;
+}
+dl {
+	margin: 0 1.625em;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin-bottom: 1.625em;
+}
+strong {
+	font-weight: bold;
+}
+h2 {
+	font-size: 125%;
+	font-weight: bold;
+}
+
+#inbox th {
+	border-bottom: 1px solid #999;
+	padding: 2px 0px;
+}
+
+#inbox td {
+	border-bottom: 1px solid #ccc;
+	padding: 2px 0px;
+}
+
+#priority-inbox th {
+	border-bottom: 1px solid #999;
+	padding: 2px 0px;
+}
+
+#priority-inbox td {
+	border-bottom: 1px solid #ccc;
+	padding: 2px 0px;	
+}
+
+#email-view th {
+	border-bottom: 1px solid #999;
+	padding: 2px 0px;
+}
+
+#email-view td {
+	border-bottom: 1px solid #ccc;
+	padding: 2px 0px;	
+}
+
+#left-sidebar #menu {
+	margin-top: 10px;
+	list-style: none;
+	width: 150px;
+}
+
+#left-sidebar #menu li {
+	border-bottom: 1px solid #999;
+}
+.message-info {
+	background : #FAD160;
+	color: #000; 
+	font-weight: bold;
+	padding: 1px 8px;	
+	margin: 2px;
+}
+.message-followup {
+	background : #FF6600;
+	color: #000; 
+	font-weight: bold;
+	padding: 1px 8px;	
+	margin: 2px;
+}

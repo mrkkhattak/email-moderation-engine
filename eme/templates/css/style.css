@@ -1,0 +1,12 @@
+/*
+Title: Email Moderation Engine - Virtual University
+Author: Meraj Rasool Khattak (MC080203420)
+Author URI: http://naqoosh.com
+Description: EME web based client.   
+Version: 1.0
+License: GNU General Public License
+/*
+/* import stylesheets and hide from ie/mac \*/
+@import url("master.css");
+@import url("form.css");
+/* end import/hide */

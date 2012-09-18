@@ -1,0 +1,16 @@
+Requirments
+-----------
+1. Apache
+2. PHP 5.3.x or later.
+3. MySQL 5.0.x or later.
+4. PEAR Libraries Mail and POP3.
+5. hMail or any email server with user access to POP and SMTP.
+
+
+Installation:
+-------------
+1. Copy the eme folder in apache's document root. 
+2. Run vu_eme.sql script to create vu_me database in MySQL.
+3. Create a user in vu_me.user mapped to user in email server.
+4. Make required changes in eme/conf.php file for constants.
+5. Access EME application in browser via http://hostname/eme/

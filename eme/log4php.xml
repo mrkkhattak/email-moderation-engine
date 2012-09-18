@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log4php:configuration xmlns:log4php="http://logging.apache.org/log4php/">
+    <appender name="fileAppender" class="LoggerAppenderDailyFile">
+		<layout class="LoggerLayoutTTCC" />
+		<param name="file" value="E:/work/www/eme/logs/eme_%s.log" />
+    </appender>
+    <root>
+        <level value="INFO" />
+        <appender_ref ref="fileAppender" ></appender_ref>
+    </root>
+</log4php:configuration>

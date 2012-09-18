@@ -1,0 +1,82 @@
+.screenReader { left: -9999px; position: absolute; top: -9999px; }
+.thanks { padding:10px; }
+
+/*****Forms*****/
+.form {
+	float: left;
+}
+
+.form input, textarea, select {  
+    padding: 9px;  
+    border: solid 1px #E5E5E5;  
+    outline: 0;  
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+    width: 220px;  
+    background: #FFFFFF url('bg_form.png') left top repeat-x;  
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));  
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);  
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    margin-bottom: 10px;
+	color: #666;
+    }  
+   
+.form textarea {  
+    width: 300px;  
+    max-width: 300px;  
+    height: 150px;  
+    line-height: 150%;  
+    }  
+  
+.form input:hover, textarea:hover,  
+input:focus, textarea:focus {  
+    border-color: #C9C9C9;  
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;  
+    }  
+  
+.form label {  
+    margin-left: 10px;  
+    color: #666;  
+	display: block;
+	float: left;
+	font-weight: normal;
+	width: 140px;        
+    }  
+  
+.form .submit input, button {  
+    width: auto;  
+    padding: 9px 15px;  
+    background: #127DBB;  
+    border: 0;  
+    font-size: 14px;  
+    color: #FFFFFF;  
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px; 
+    margin-bottom: 10px; 
+    }    
+    
+/* error message */
+.form .error {
+	height:15px;
+	background-color: #D64937;
+	color: #FFFFFF; 
+	font-size:11px;
+	border:1px solid #E1E16D;
+	padding:4px 10px;
+	
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px; 
+	-moz-border-radius-bottomleft:0;
+	-moz-border-radius-topleft:0;	
+	-webkit-border-bottom-left-radius:0; 
+	-webkit-border-top-left-radius:0;
+	
+	-moz-box-shadow:0 0  6px #ddd;
+	-webkit-box-shadow:0 0 6px #ddd;
+    margin-bottom: 10px;	
+}
+
+.form-row {
+	border: 2px solid red;
+}

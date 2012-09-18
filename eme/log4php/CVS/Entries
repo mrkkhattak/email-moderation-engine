@@ -1,0 +1,27 @@
+/Logger.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerAppender.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerAppenderPool.php/1.1/Thu May 19 13:40:54 2011//
+/LoggerConfigurator.php/1.1/Thu May 19 13:40:54 2011//
+/LoggerException.php/1.1/Thu May 19 13:40:54 2011//
+/LoggerFilter.php/1.1/Thu May 19 13:40:54 2011//
+/LoggerHierarchy.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerLayout.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerLevel.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerLocationInfo.php/1.1/Thu May 19 13:40:54 2011//
+/LoggerLoggingEvent.php/1.1/Thu May 19 13:40:54 2011//
+/LoggerMDC.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerNDC.php/1.2/Thu May 19 13:40:54 2011//
+/LoggerReflectionUtils.php/1.1/Fri Nov 27 06:44:14 2009//
+/LoggerRoot.php/1.2/Thu May 19 13:40:54 2011//
+D/appenders////
+D/config////
+D/configurators////
+D/filters////
+D/helpers////
+D/layouts////
+D/or////
+D/renderers////
+D/spi////
+D/tutorials////
+D/varia////
+D/xml////
